@@ -1,0 +1,94 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.img {
+  max-height: 200px;
+}
+
+
+body{
+    font-family: "Cinzel", serif;
+    color: #303030;
+    display: block;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.project-name {
+    text-transform: uppercase;
+}
+
+
+.name{
+    color: #1c2043;
+}
+
+.job-title{
+    color: #696969;
+}
+
+
+.right-header{
+  text-align: right;
+}
+
+
+hr{
+    background-color: #dcdcdc;
+    border: 0 none;
+    height: 1px;
+}
+
+
+/* zocial */
+[class*="brandico-"]:before {
+  font-family: "brandico", sans-serif;
+  text-shadow: 1px 1px 1px #aaa;
+  width: 2em;
+  color: black;
+  display: inline-block;
+  font-size: 21px;
+}
+
+
+.copyright{
+    color:  #d3d3d3;
+}
+
+
+/*Media Queries*/
+@media screen and (min-width: 500px) {
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+  .logo {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+

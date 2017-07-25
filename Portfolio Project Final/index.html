@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Isabelle Kyaw</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="http://weloveiconfonts.com/api/?family=brandico" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!--Row1-->
+        <header class="row">
+            <div class= "col-md-6">
+                <img class="logo img-responsive" src="images/logo_200w.png" alt="Brand logo">
+            </div>
+            <div class="col-md-6 right-header text-uppercase">
+                <!-- Name -->
+                <h1 class="name"> Isabelle Poe Kyaw</h1>
+                <!-- Job Title -->
+                <h4 class="job-title"> Front-end Web Developer</h4>
+                <!-- Social Links -->
+                <div id="social">
+                    <a href="https://www.linkedin.com/in/poe-kyaw-26597b137/" class="brandico-github"></a>
+                    <a href="https://github.com/ippk53" class="brandico-linkedin-rect"></a>
+                </div>
+            </div>
+        </header>
+        <!--Row2-->
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <hr>
+            </div>
+        </div>
+        <!--Row3-->
+        <div class="row">
+            <div class="col-md-12">
+                <picture>
+                    <source class="img-responsive" media="(min-width: 700px)" srcset="images/mountrushmore_1140px.jpeg">
+                    <source class="img-responsive" media="(min-width: 500px)" srcset="images/mountrushmore_500px.jpeg">
+                    <img class="img-responsive" src="images/mountrushmore_1140px.jpeg" alt="Mount Rushmore">
+                </picture>
+            </div>
+        </div>
+        <!--Row4-->
+        <section class="row">
+            <div class="col-md-12">
+                <h2 class="project-featured">Featured Work</h2>
+                <p class="description">Click on images for a brief description.</p>
+            </div>
+        </section>
+        <!--Row5-->
+        <main class="row text-left">
+            <!-- Project1 -->
+            <article class="col-md-4 col-sm-4 col-lg-4">
+                <img class="img-responsive img" src="images/field.jpg" alt="Resume" data-toggle="modal" data-target="#project1">
+                <h3 class="project-name">Resume</h3>
+                <a href="https://www.quora.com/" >Click Here</a>
+            </article>
+            <!-- Project2 -->
+            <article class="col-md-4 col-sm-4 col-lg-4">
+                <img class="img-responsive img" src="images/friendship.jpg" alt="Portfolio Project" data-toggle="modal" data-target="#project2">
+                <h3 class="project-name">Portfolio Project</h3>
+                <a href="https://www.quora.com/" >Click Here</a>
+            </article>
+            <!-- Project3 -->
+            <article class="col-md-4 col-sm-4 col-lg-4">
+                <img class="img-responsive img" src="images/flowers.jpg" alt="Arcade Game" data-toggle="modal" data-target="#project3">
+                <h3 class="project-name">Arcade Game Clone</h3>
+                <a href="https://www.quora.com/" >Click Here</a>
+            </article>
+        </main>
+        <!--Row5-->
+        <footer class="row">
+            <div class="col-md-12 col-sm-12  text-right">
+                <hr>
+                <h5 class="copyright">&#x00A9; 2017 Isabelle Kyaw </h5>
+            </div>
+        </footer>
+    <!--enddiv-->
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel"> ONLINE RESUME</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/field.jpg" alt="Resume">
+                    <p class="modal-description">A summary of my work experience and my educational background</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal2 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">My Portfolio</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/friendship.jpg" alt="Portfolio">
+                    <p class="modal-description">This was my first project in this class. I learned a lot about HTML and CSS.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Modal3 -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Classic Arcade Game</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/flowers.jpg" alt="Arcade Game">
+                    <p class="modal-description"> I will be building a classic arcade game in the future for my Nonodegree</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
