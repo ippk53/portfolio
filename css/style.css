@@ -52,16 +52,14 @@ hr{
     height: 1px;
 }
 
-
-/* zocial */
-[class*="brandico-"]:before {
-  font-family: "brandico", sans-serif;
-  text-shadow: 1px 1px 1px #aaa;
-  width: 2em;
-  color: black;
-  display: inline-block;
-  font-size: 21px;
+.fa-linkedin-square {
+  color:black;
 }
+.fa-github-square {
+  color:black;
+}
+
+
 
 
 .copyright{
